@@ -1,0 +1,17 @@
+﻿<div id="app">
+	<h1>Hello App!</h1>
+	<div class="panel panel-info">
+		<div class="panel-body">
+			Test message: 			{{message}}
+		</div>
+	</div>
+	<ul class="nav nav-pills">
+		<li role="presentation"><router-link to="/foo">Go Foo</router-link></li>
+		<li role="presentation"><router-link to="/bar">Go Bar</router-link></li>
+	</ul>
+
+	<div class="well well-lg">
+		<!-- route outlet -->
+		<router-view></router-view>
+	</div>
+</div>
