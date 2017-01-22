@@ -1,0 +1,18 @@
+﻿
+<h1>Fetch Data from server</h1>
+<div id="app">
+	{{message}}
+	<div class="well well-lg">
+		<button v-on:click="fetchData()">Fetch Data from server</button>
+		<ul class="list-group">
+			<li class="list-group-item" v-for="item in serverData">
+				<div class="col-lg-3">
+					{{item.name}} : {{item.value}}
+				</div>
+				<input type="number" v-model="item.value" />
+			</li>
+		</ul>
+
+		Sum of values: {{sum}}
+	</div> 
+</div>

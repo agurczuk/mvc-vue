@@ -9,8 +9,13 @@
 
 	@{
 		var controllerName = HttpContext.Current.Request.RequestContext.RouteData.Values["Controller"].ToString();
+		var serverUrl = string.Format("{0}://{1}{2}", Request.Url.Scheme, Request.Url.Authority, Url.Content("~"));
+
 	}
 	
+	<script>
+		window.root_url = "@serverUrl";
+	</script>
 
 </head>
 <body>
@@ -20,6 +25,7 @@
 				<ul class="nav navbar-nav">
 					<li><a href="~/">Simple vue.js</a></li>
 					<li><a href="~/VueRouting">Vue.js routing</a></li>
+					<li><a href="~/FetchData">Fetch Data with Vue</a></li>
 				</ul>
 			</div>
 		</nav>

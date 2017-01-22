@@ -130,6 +130,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\FetchDataController.cs" />
     <Compile Include="Controllers\VueRoutingController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
@@ -145,6 +146,7 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="gulpfile.js" />
+    <Content Include="Scripts\app\FetchData\bundle.js" />
     <Content Include="Scripts\app\Home\bundle.js" />
     <Content Include="Scripts\app\VueRouting\bundle.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -174,6 +176,7 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\VueRouting\Index.cshtml" />
+    <Content Include="Views\FetchData\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

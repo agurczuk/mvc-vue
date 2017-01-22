@@ -10306,7 +10306,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
         if (!module.hot.data) {
           hotAPI.createRecord("data-v-6546d570", __vue__options__);
         } else {
-          hotAPI.rerender("data-v-6546d570", __vue__options__);
+          hotAPI.reload("data-v-6546d570", __vue__options__);
         }
       })();
     }
