@@ -130,6 +130,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\GentelellaController.cs" />
     <Compile Include="Controllers\FetchDataController.cs" />
     <Compile Include="Controllers\VueRoutingController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -177,6 +178,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\VueRouting\Index.cshtml" />
     <Content Include="Views\FetchData\Index.cshtml" />
+    <Content Include="Views\Gentelella\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
