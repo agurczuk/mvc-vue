@@ -1,6 +1,6 @@
-﻿<template>
+<template>
 	<div class="panel panel-success">
-		Welcome to alhoa component sas
+		Welcome to alhoa component
 		<customHello></customHello>
 	</div>
 </template>

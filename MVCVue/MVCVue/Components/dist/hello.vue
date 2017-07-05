@@ -1,4 +1,4 @@
-﻿<template>
+<template>
 	<div class="panel panel-success">
 		<div class="panel-body">
 			<div id="hello">
